@@ -68,9 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About Us.aspx" />
-    <Content Include="App_Data\Gadget database.mdf" />
-    <Content Include="App_Data\Gadget database_log.ldf">
-      <DependentUpon>Gadget database.mdf</DependentUpon>
+    <Content Include="App_Data\Gadget Database.mdf" />
+    <Content Include="App_Data\Gadget Database_log.ldf">
+      <DependentUpon>Gadget Database.mdf</DependentUpon>
     </Content>
     <Content Include="Contact Us.aspx" />
     <Content Include="Gallery.aspx" />
