@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Gadget database.mdf" />
+    <Content Include="App_Data\Gadget database_log.ldf">
+      <DependentUpon>Gadget database.mdf</DependentUpon>
+    </Content>
     <Content Include="Gallery.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="Web.config" />
