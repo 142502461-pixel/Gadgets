@@ -74,6 +74,68 @@
     </Content>
     <Content Include="Contact Us.aspx" />
     <Content Include="Gallery.aspx" />
+    <Content Include="Images\Gadgets Store\Cameras\Canon EOS 8OOD.jpg" />
+    <Content Include="Images\Gadgets Store\Cameras\Canon Pro AV Express.jpg" />
+    <Content Include="Images\Gadgets Store\Cameras\fUJI INSTAX.png" />
+    <Content Include="Images\Gadgets Store\Cameras\ILFORD.png" />
+    <Content Include="Images\Gadgets Store\Cameras\Om-1 Mark 11.png" />
+    <Content Include="Images\Gadgets Store\Cameras\Panasonic Lumix DC-G95D.jpg" />
+    <Content Include="Images\Gadgets Store\Cameras\Pocket Panasonic Lumix DMC.png" />
+    <Content Include="Images\Gadgets Store\Cameras\SK730.jpg" />
+    <Content Include="Images\Gadgets Store\Cameras\Sony Cyber Shot.png" />
+    <Content Include="Images\Gadgets Store\Cameras\sONY.jpg" />
+    <Content Include="Images\Gadgets Store\FlashDrives\G-DRIVE.jpg" />
+    <Content Include="Images\Gadgets Store\FlashDrives\GeeWiz.jpg" />
+    <Content Include="Images\Gadgets Store\FlashDrives\Hard Box.jpg" />
+    <Content Include="Images\Gadgets Store\FlashDrives\Hong Kong.png" />
+    <Content Include="Images\Gadgets Store\FlashDrives\Jesus Drive.png" />
+    <Content Include="Images\Gadgets Store\FlashDrives\Kingston.png" />
+    <Content Include="Images\Gadgets Store\FlashDrives\SanDisk Ultra Luxe.jpg" />
+    <Content Include="Images\Gadgets Store\FlashDrives\Seagate.jpg" />
+    <Content Include="Images\Gadgets Store\FlashDrives\WD.png" />
+    <Content Include="Images\Gadgets Store\FlashDrives\White Twister.jpg" />
+    <Content Include="Images\Gadgets Store\Headphones\Alienware-7.1.png" />
+    <Content Include="Images\Gadgets Store\Headphones\Alienware-Gaming.png" />
+    <Content Include="Images\Gadgets Store\Headphones\Anker.jpg" />
+    <Content Include="Images\Gadgets Store\Headphones\Havit H655BBT.jpg" />
+    <Content Include="Images\Gadgets Store\Headphones\Impact 860t.jpg" />
+    <Content Include="Images\Gadgets Store\Headphones\Logitech G Pro.jpg" />
+    <Content Include="Images\Gadgets Store\Headphones\Microsoft LifeChat lx.png" />
+    <Content Include="Images\Gadgets Store\Headphones\Pulse 3D.jpg" />
+    <Content Include="Images\Gadgets Store\Headphones\Volkano Falcon.jpg" />
+    <Content Include="Images\Gadgets Store\Headphones\Zinko.jpg" />
+    <Content Include="Images\Gadgets Store\Laptop\Acer Aspire 5.jpg" />
+    <Content Include="Images\Gadgets Store\Laptop\Acer N16P1.png" />
+    <Content Include="Images\Gadgets Store\Laptop\Big_ASUS-Laptop-X543UA-i341GT-header-001-01-300x300.png" />
+    <Content Include="Images\Gadgets Store\Laptop\Dell-Latitude-5300-300x300.png" />
+    <Content Include="Images\Gadgets Store\Laptop\Dell-LT-300x300.png" />
+    <Content Include="Images\Gadgets Store\Laptop\Hp Laptop 15.jpg" />
+    <Content Include="Images\Gadgets Store\Laptop\HP Pavilion 15.jpg" />
+    <Content Include="Images\Gadgets Store\Laptop\James CP.jpg" />
+    <Content Include="Images\Gadgets Store\Laptop\Lenovo Ideapad.jpg" />
+    <Content Include="Images\Gadgets Store\Laptop\Lenovo notebook t16.png" />
+    <Content Include="Images\Gadgets Store\Laptop\Lenovo-V330-15IKB-81AX-300x300.png" />
+    <Content Include="Images\Gadgets Store\Phones\iPhone 15.jpg" />
+    <Content Include="Images\Gadgets Store\Phones\iPhone 16.png" />
+    <Content Include="Images\Gadgets Store\Phones\iphone_13_green_pure_back_iphone_13_green_pure_front_2-up_screen__usen_2_1_1_1.png" />
+    <Content Include="Images\Gadgets Store\Phones\Oppo A38.jpg" />
+    <Content Include="Images\Gadgets Store\Phones\Oppo A3x.png" />
+    <Content Include="Images\Gadgets Store\Phones\Samsung A56.jpg" />
+    <Content Include="Images\Gadgets Store\Phones\samsung-A06-1-300x300.png" />
+    <Content Include="Images\Gadgets Store\Phones\Samsung-Galaxy-Z-Flip5-Mint-300x300.png" />
+    <Content Include="Images\Gadgets Store\Phones\Tecno POP 9.jpg" />
+    <Content Include="Images\Gadgets Store\Phones\Tenco Spark Go 2.jpg" />
+    <Content Include="Images\Gadgets Store\Watches\Apple 360.png" />
+    <Content Include="Images\Gadgets Store\Watches\Apple GPS GOLD.jpg" />
+    <Content Include="Images\Gadgets Store\Watches\BlinkTech.png" />
+    <Content Include="Images\Gadgets Store\Watches\Fitbit Sense 2.jpg" />
+    <Content Include="Images\Gadgets Store\Watches\Google Pixel Watch 2.jpg" />
+    <Content Include="Images\Gadgets Store\Watches\Honor Watch 5.jpg" />
+    <Content Include="Images\Gadgets Store\Watches\Huawei watch fit 3.jpg" />
+    <Content Include="Images\Gadgets Store\Watches\Samsung Galaxy Watch 5.png" />
+    <Content Include="Images\Gadgets Store\Watches\Samsung Sw.png" />
+    <Content Include="Images\Gadgets Store\Watches\Samsung-Galaxy-Watch-7-BT-40mm-Green-300x300.png" />
+    <Content Include="Images\Gadgets Store\Watches\Smart Tele World.png" />
     <Content Include="Index.aspx" />
     <Content Include="item.aspx" />
     <Content Include="Login.aspx" />
@@ -89,6 +151,7 @@
     </Compile>
     <Compile Include="Admin masterpage.Master.cs">
       <DependentUpon>Admin masterpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Admin masterpage.Master.designer.cs">
       <DependentUpon>Admin masterpage.Master</DependentUpon>
@@ -148,9 +211,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Images\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
