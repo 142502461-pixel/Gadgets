@@ -139,6 +139,9 @@
     <Content Include="Index.aspx" />
     <Content Include="item.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="videos\stock vid1.mp4" />
+    <Content Include="videos\stock vid2.mp4" />
+    <Content Include="videos\stock vid3.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
