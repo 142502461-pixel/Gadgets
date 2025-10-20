@@ -84,6 +84,16 @@
     <Content Include="Images\Gadgets Store\Cameras\SK730.jpg" />
     <Content Include="Images\Gadgets Store\Cameras\Sony Cyber Shot.png" />
     <Content Include="Images\Gadgets Store\Cameras\sONY.jpg" />
+    <Content Include="Images\Gadgets Store\Consoles\Asus ROG Ally 512GB.jpg" />
+    <Content Include="Images\Gadgets Store\Consoles\Ayaneo %28White%29 1TB.jpg" />
+    <Content Include="Images\Gadgets Store\Consoles\Evercade XP 4GB.jpg" />
+    <Content Include="Images\Gadgets Store\Consoles\Nintendo Switch OLED %28white%29 512GB.png" />
+    <Content Include="Images\Gadgets Store\Consoles\Sony Playstation 5 Pro 30th Anniversary Limited Edition 2TB Console.jpg" />
+    <Content Include="Images\Gadgets Store\Consoles\Sony Playstation 5 Slim Digital Edition 1TB.jpeg" />
+    <Content Include="Images\Gadgets Store\Consoles\Sony Playstation 5 Slim Digital Edition Bundle 1TB.png" />
+    <Content Include="Images\Gadgets Store\Consoles\Steam Deck OLED 1TB.jpg" />
+    <Content Include="Images\Gadgets Store\Consoles\Xbox Series S 1TB.jpg" />
+    <Content Include="Images\Gadgets Store\Consoles\Xbox Series S Bundle Gamepass Ultimate 512GB.jpg" />
     <Content Include="Images\Gadgets Store\FlashDrives\G-DRIVE.jpg" />
     <Content Include="Images\Gadgets Store\FlashDrives\GeeWiz.jpg" />
     <Content Include="Images\Gadgets Store\FlashDrives\Hard Box.jpg" />
@@ -139,6 +149,9 @@
     <Content Include="Index.aspx" />
     <Content Include="item.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="videos\stock vid1.mp4" />
+    <Content Include="videos\stock vid2.mp4" />
+    <Content Include="videos\stock vid3.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
