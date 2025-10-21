@@ -9,20 +9,26 @@
     </asp:ContentPlaceHolder>
     <style type="text/css">
         .auto-style1 {
-            width: 1423px;
-            height: 422px;
+            text-align: right;
+        }
+        .auto-style2 {
+            text-align: left;
         }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Menu ID="Menu1" runat="server" Font-Size="X-Large" Orientation="Horizontal">
+            <div class="auto-style2">
+            <asp:Menu ID="Menu1" runat="server" Font-Size="XX-Large" Orientation="Horizontal">
                 <Items>
                     <asp:MenuItem NavigateUrl="~/Index.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Gallery.aspx" Text="Gallery" Value="Gallery"></asp:MenuItem>
                     <asp:MenuItem NavigateUrl="~/Contact Us.aspx" Text="Contact Us" Value="Contact Us"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/About Us.aspx" Text="About Us" Value="About Us"></asp:MenuItem>
                 </Items>
             </asp:Menu>
+            </div>
             <br />
             <img alt="banner" class="auto-style1" src="Images/SlideShow/SlideShow%201.png" /><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
