@@ -24,6 +24,15 @@ namespace Gadgets
         protected global::System.Web.UI.WebControls.Label ldlUsrename;
 
         /// <summary>
+        /// TxtUsername control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtUsername;
+
+        /// <summary>
         /// ldlPassword control.
         /// </summary>
         /// <remarks>
@@ -31,6 +40,15 @@ namespace Gadgets
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label ldlPassword;
+
+        /// <summary>
+        /// TxtPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtPassword;
 
         /// <summary>
         /// btnLogin control.
