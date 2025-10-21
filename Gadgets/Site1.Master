@@ -13,16 +13,22 @@
             width: 1427px;
             height: 443px;
         }
-        .auto-style2 {
-            text-align: left;
+        .auto-style3 {
+            text-align: center;
         }
+         
+        body{
+            background-color:black;
+        }
+
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <div class="auto-style2">
-            <asp:Menu ID="Menu1" runat="server" Font-Size="XX-Large" Orientation="Horizontal">
+        <div class="auto-style3">
+            <div class="auto-style3">
+                <br />
+            <asp:Menu ID="Menu1" runat="server" Font-Size="XX-Large" Orientation="Horizontal" BorderColor="Aqua">
                 <Items>
                     <asp:MenuItem NavigateUrl="~/Index.aspx" Text="Home" Value="Home"></asp:MenuItem>
                     <asp:MenuItem NavigateUrl="~/Gallery.aspx" Text="Gallery" Value="Gallery"></asp:MenuItem>
