@@ -146,6 +146,7 @@
     <Content Include="Images\Gadgets Store\Watches\Samsung Sw.png" />
     <Content Include="Images\Gadgets Store\Watches\Samsung-Galaxy-Watch-7-BT-40mm-Green-300x300.png" />
     <Content Include="Images\Gadgets Store\Watches\Smart Tele World.png" />
+    <Content Include="Images\SlideShow\SlideShow 1.png" />
     <Content Include="Index.aspx" />
     <Content Include="item.aspx" />
     <Content Include="Login.aspx" />
