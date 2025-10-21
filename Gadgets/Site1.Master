@@ -7,16 +7,6 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <style type="text/css">
-        .auto-style1 {
-            text-align: right;
-            width: 1427px;
-            height: 443px;
-        }
-        .auto-style2 {
-            text-align: left;
-        }
-    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -30,9 +20,7 @@
                     <asp:MenuItem NavigateUrl="~/About Us.aspx" Text="About Us" Value="About Us"></asp:MenuItem>
                 </Items>
             </asp:Menu>
-            </div>
-            <br />
-            <img alt="banner" class="auto-style1" src="Images/SlideShow/SlideShow%201.png" /><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
     </form>
