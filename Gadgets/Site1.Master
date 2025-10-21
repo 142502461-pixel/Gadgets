@@ -118,22 +118,11 @@ img {vertical-align: middle;}
             <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="Images/13217120306121850387.jpg" style="width:100%">
-  <div class="text">Superman</div>
+  <div class="numbertext">1 / 1</div>
+  <img src="Images/SlideShow/SlideShow 1.png" style="width:100%">
+  <div class="text"></div>
 </div>
 
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="Images/16754924710185328183.jpg" style="width:100%">
-  <div class="text">I KNOW WHAT YOU DID LAST SUMMER</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="Images/9827509768972934839.jpg" style="width:100%">
-  <div class="text">The Fantastic Four</div>
-</div>
     <a class="prev" onclick="plusSlides(-1)">❮</a>
     <a class="next" onclick="plusSlides(1)">❯</a>
 
