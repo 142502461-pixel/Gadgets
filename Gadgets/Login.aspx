@@ -12,13 +12,17 @@
             <td class="auto-style1">
                 <asp:Label ID="ldlUsrename" runat="server" BackColor="#0033CC" BorderColor="White" BorderStyle="Groove" Font-Bold="True" Font-Names="Berlin Sans FB Demi" ForeColor="White" Text="Username"></asp:Label>
             </td>
-            <td>&nbsp;</td>
+            <td>
+                <asp:TextBox ID="TxtUsername" runat="server"></asp:TextBox>
+            </td>
         </tr>
         <tr>
             <td class="auto-style1">
                 <asp:Label ID="ldlPassword" runat="server" BackColor="#0066CC" BorderColor="White" BorderStyle="Double" Font-Bold="True" Font-Names="Berlin Sans FB Demi" ForeColor="White" Text="PassWord"></asp:Label>
             </td>
-            <td>&nbsp;</td>
+            <td>
+                <asp:TextBox ID="TxtPassword" runat="server"></asp:TextBox>
+            </td>
         </tr>
         <tr>
             <td class="auto-style1">
