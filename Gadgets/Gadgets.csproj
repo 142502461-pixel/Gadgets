@@ -73,6 +73,7 @@
       <DependentUpon>Gadget Database.mdf</DependentUpon>
     </Content>
     <Content Include="Contact Us.aspx" />
+    <Content Include="Delete.aspx" />
     <Content Include="Gallery.aspx" />
     <Content Include="Images\Gadgets Store\Cameras\Canon EOS 8OOD.jpg" />
     <Content Include="Images\Gadgets Store\Cameras\Canon Pro AV Express.jpg" />
@@ -146,6 +147,8 @@
     <Content Include="Images\Gadgets Store\Watches\Samsung Sw.png" />
     <Content Include="Images\Gadgets Store\Watches\Samsung-Galaxy-Watch-7-BT-40mm-Green-300x300.png" />
     <Content Include="Images\Gadgets Store\Watches\Smart Tele World.png" />
+    <Content Include="Images\SlideShow\login picture.jpg" />
+    <Content Include="Images\SlideShow\Search button pic.jpg" />
     <Content Include="Images\SlideShow\SlideShow 1.png" />
     <Content Include="Index.aspx" />
     <Content Include="item.aspx" />
@@ -153,7 +156,6 @@
     <Content Include="videos\stock vid1.mp4" />
     <Content Include="videos\stock vid2.mp4" />
     <Content Include="videos\stock vid3.mp4" />
-    <Content Include="view all.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -177,6 +179,13 @@
     </Compile>
     <Compile Include="Contact Us.aspx.designer.cs">
       <DependentUpon>Contact Us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Delete.aspx.cs">
+      <DependentUpon>Delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Delete.aspx.designer.cs">
+      <DependentUpon>Delete.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gallery.aspx.cs">
       <DependentUpon>Gallery.aspx</DependentUpon>
@@ -213,13 +222,6 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
-    </Compile>
-    <Compile Include="view all.aspx.cs">
-      <DependentUpon>view all.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="view all.aspx.designer.cs">
-      <DependentUpon>view all.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

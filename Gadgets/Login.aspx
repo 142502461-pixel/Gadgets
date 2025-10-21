@@ -1,10 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin masterpage.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Gadgets.Login" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Gadgets.Login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style type="text/css">
-        .auto-style1 {
-            width: 908px;
-        }
-    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <table style="width:100%;">
@@ -13,7 +8,7 @@
                 <asp:Label ID="ldlUsrename" runat="server" BackColor="#0033CC" BorderColor="White" BorderStyle="Groove" Font-Bold="True" Font-Names="Berlin Sans FB Demi" ForeColor="White" Text="Username"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="TxtUsername" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TxtUsername" runat="server" OnTextChanged="TxtUsername_TextChanged"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -26,7 +21,7 @@
         </tr>
         <tr>
             <td class="auto-style1">
-                <asp:Button ID="btnLogin" runat="server" Font-Bold="True" Font-Names="Arial Black" Text="Login" />
+                <asp:Button ID="btnLogin" runat="server" Font-Bold="True" Font-Names="Arial Black" Text="Login" OnClick="btnLogin_Click" />
             </td>
             <td>&nbsp;</td>
         </tr>
