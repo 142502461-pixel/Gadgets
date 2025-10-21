@@ -153,6 +153,7 @@
     <Content Include="videos\stock vid1.mp4" />
     <Content Include="videos\stock vid2.mp4" />
     <Content Include="videos\stock vid3.mp4" />
+    <Content Include="view all.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -212,6 +213,13 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="view all.aspx.cs">
+      <DependentUpon>view all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view all.aspx.designer.cs">
+      <DependentUpon>view all.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
