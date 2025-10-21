@@ -10,6 +10,8 @@
     <style type="text/css">
         .auto-style1 {
             text-align: right;
+            width: 1427px;
+            height: 443px;
         }
         .auto-style2 {
             text-align: left;
