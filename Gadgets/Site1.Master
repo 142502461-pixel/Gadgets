@@ -7,6 +7,7 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+<<<<<<< HEAD
 <style>
 <<<<<<< HEAD
 /* Slideshow container */
@@ -105,6 +106,8 @@ body {
         }
 >>>>>>> e0860fcbebc013d3570d607ccb82a312af5d4508
     </style>
+=======
+>>>>>>> 5a65fff7151a61b0ea74e812db60cff2882f1db5
 
 </head>
 <body>
