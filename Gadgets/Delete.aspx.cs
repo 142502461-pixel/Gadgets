@@ -16,23 +16,23 @@ namespace Gadgets
 
         protected void btndelete_Click(object sender, EventArgs e)
         {
-            btnyes.Visible = true;
-            btncancel.Visible = true;
-            ldlareyousure.Visible = true;
+            BtnYes.Visible = true;
+            BtnCancel.Visible = true;
+            Label3.Visible = true;
         }
 
         protected void btnyes_Click(object sender, EventArgs e)
         {
             SqlDataSource1.Delete();
-            ldldone.Visible = true;
-            txtId.Text = " ";
+            ldlDone.Visible = true;
+            TxtId.Text = " ";
         }
         protected void btncancel_click(object sender, EventArgs e)
         {
-            ldldone.Visible = false;
-            btnyes.Visible = false;
-            btncancel.Visible = false;
-            ldlareyousure.Visible = false;
+            ldlDone.Visible = false;
+            BtnYes.Visible = false;
+            BtnCancel.Visible = false;
+            Label3.Visible = false;
         }
 
         protected void txtId_TextChanged(object sender, EventArgs e)

@@ -18,20 +18,11 @@ namespace Gadgets
             Response.Redirect("login.aspx");
         }
 
-        protected void ImageButton1_Click(System.Object sender, System.Web.UI.ImageClickEventArgs e)
-        {
-
-        }
 
         protected void ImageButton1_Click1(System.Object sender, System.Web.UI.ImageClickEventArgs e)
             {
                 Session["txtsearch"] = TxtSearch.Text;
                 Response.Redirect("GlobalSearch.aspx");
             }
-
-        protected void TxtSearch_TextChanged(System.Object sender, System.EventArgs e)
-        {
-
-        }
     }
 }

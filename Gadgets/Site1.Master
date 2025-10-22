@@ -7,7 +7,7 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-
+<style>
 <<<<<<< HEAD
 /* Slideshow container */
 .slideshow-container {
@@ -98,7 +98,7 @@ body {
   .text {font-size: 11px}
 }
 =======
-    <style type="text/css">
+    
         .auto-style1 {
             width: 1420px;
             height: 422px;
@@ -117,8 +117,8 @@ body {
                 </Items>
             </asp:Menu>
             <img alt="banner" class="auto-style1" src="Images/SlideShow/SlideShow%201.png" /><br />
-            <asp:ImageButton ID="btnLogin" runat="server" Height="39px" ImageUrl="~/Images/SlideShow/login picture.jpg" OnClick="ImageButton1_Click" PostBackUrl="~/Login.aspx" Width="38px" />
-            <asp:TextBox ID="TxtSearch" runat="server" OnTextChanged="TxtSearch_TextChanged"></asp:TextBox>
+            <asp:ImageButton ID="btnLogin" runat="server" Height="39px" ImageUrl="~/Images/SlideShow/login picture.jpg" PostBackUrl="~/Login.aspx" Width="38px" />
+            <asp:TextBox ID="TxtSearch" runat="server"></asp:TextBox>
             <asp:ImageButton ID="ImageButton1" runat="server" Height="22px" ImageUrl="~/Images/SlideShow/Search button pic.jpg" OnClick="ImageButton1_Click1" Width="33px" />
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 <p>
