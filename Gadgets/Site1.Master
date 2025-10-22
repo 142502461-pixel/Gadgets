@@ -7,13 +7,8 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
 
+<<<<<<< HEAD
 /* Slideshow container */
 .slideshow-container {
   max-width: 3000px;
@@ -102,7 +97,15 @@ body {
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+=======
+    <style type="text/css">
+        .auto-style1 {
+            width: 1420px;
+            height: 422px;
+        }
+>>>>>>> e0860fcbebc013d3570d607ccb82a312af5d4508
     </style>
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -113,93 +116,10 @@ body {
                     <asp:MenuItem NavigateUrl="~/Contact Us.aspx" Text="Contact Us" Value="Contact Us"></asp:MenuItem>
                 </Items>
             </asp:Menu>
+            <img alt="banner" class="auto-style1" src="Images/SlideShow/SlideShow%201.png" /><br />
             <asp:ImageButton ID="btnLogin" runat="server" Height="39px" ImageUrl="~/Images/SlideShow/login picture.jpg" OnClick="ImageButton1_Click" PostBackUrl="~/Login.aspx" Width="38px" />
             <asp:TextBox ID="TxtSearch" runat="server" OnTextChanged="TxtSearch_TextChanged"></asp:TextBox>
             <asp:ImageButton ID="ImageButton1" runat="server" Height="22px" ImageUrl="~/Images/SlideShow/Search button pic.jpg" OnClick="ImageButton1_Click1" Width="33px" />
-            <div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 1</div>
-  <img src="Images/SlideShow/SlideShow 1.png" style="width:100%">
-  <div class="text"></div>
-</div>
-
-    <a class="prev" onclick="plusSlides(-1)">❮</a>
-    <a class="next" onclick="plusSlides(1)">❯</a>
-
-</div>
-<br>
-
-<div class="dot-container">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-  </div>
-
-  <script>
-      let slideIndex = 0;
-      let autoSlideInterval;
-
-      function showSlides(n) {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          let dots = document.getElementsByClassName("dot");
-
-          if (n > slides.length) { slideIndex = 1 }
-          if (n < 1) { slideIndex = slides.length }
-
-          for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";
-          }
-
-          for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-          }
-
-          slides[slideIndex - 1].style.display = "block";
-          dots[slideIndex - 1].className += " active";
-      }
-
-      function plusSlides(n) {
-          clearInterval(autoSlideInterval); // Stop auto when manually clicked
-          showSlides(slideIndex += n);
-          startAutoSlide(); // Restart auto
-      }
-
-      function currentSlide(n) {
-          clearInterval(autoSlideInterval);
-          showSlides(slideIndex = n);
-          startAutoSlide();
-      }
-
-      function autoSlides() {
-          let slides = document.getElementsByClassName("mySlides");
-          let dots = document.getElementsByClassName("dot");
-
-          for (let i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";
-          }
-
-          slideIndex++;
-          if (slideIndex > slides.length) { slideIndex = 1 }
-
-          for (let i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-          }
-
-          slides[slideIndex - 1].style.display = "block";
-          dots[slideIndex - 1].className += " active";
-      }
-
-      function startAutoSlide() {
-          autoSlideInterval = setInterval(autoSlides, 3000); // Change every 3 seconds
-      }
-
-      // Initial load
-      slideIndex = 1;
-      showSlides(slideIndex);
-      startAutoSlide();
-  </script>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 <p>
                     &nbsp;</p>
