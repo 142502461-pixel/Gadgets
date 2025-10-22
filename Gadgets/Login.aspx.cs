@@ -14,12 +14,12 @@ namespace Gadgets
 
         }
 
-        protected System.Void btnLogin_Click(System.Object sender, System.EventArgs e)
+        protected void btnLogin_Click(System.Object sender, System.EventArgs e)
         {
     
         }
 
-        protected System.Void TxtUsername_TextChanged(System.Object sender, System.EventArgs e)
+        protected void TxtUsername_TextChanged(System.Object sender, System.EventArgs e)
         {
 
         }
