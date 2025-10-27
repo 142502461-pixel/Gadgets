@@ -153,6 +153,7 @@
     <Content Include="Index.aspx" />
     <Content Include="item.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="Update.aspx" />
     <Content Include="videos\stock vid1.mp4" />
     <Content Include="videos\stock vid2.mp4" />
     <Content Include="videos\stock vid3.mp4" />
@@ -222,6 +223,13 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Update.aspx.cs">
+      <DependentUpon>Update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Update.aspx.designer.cs">
+      <DependentUpon>Update.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

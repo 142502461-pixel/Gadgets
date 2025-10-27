@@ -105,6 +105,10 @@ body {
             height: 422px;
         }
 >>>>>>> e0860fcbebc013d3570d607ccb82a312af5d4508
+    .auto-style1 {
+        width: 1817px;
+        height: 416px;
+    }
     </style>
 =======
 >>>>>>> 5a65fff7151a61b0ea74e812db60cff2882f1db5
