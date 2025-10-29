@@ -158,6 +158,11 @@
     <Content Include="Index.aspx" />
     <Content Include="item.aspx" />
     <Content Include="Login.aspx" />
+<<<<<<< HEAD
+    <Content Include="Update.aspx" />
+    <Content Include="update2.aspx" />
+=======
+>>>>>>> 11cc9ff93fa4c070bb3097ca0c6767151e050bdd
     <Content Include="videos\stock vid1.mp4" />
     <Content Include="videos\stock vid2.mp4" />
     <Content Include="videos\stock vid3.mp4" />
@@ -228,6 +233,23 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+    <Compile Include="Update.aspx.cs">
+      <DependentUpon>Update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Update.aspx.designer.cs">
+      <DependentUpon>Update.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="update2.aspx.cs">
+      <DependentUpon>update2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="update2.aspx.designer.cs">
+      <DependentUpon>update2.aspx</DependentUpon>
+    </Compile>
+=======
+>>>>>>> 11cc9ff93fa4c070bb3097ca0c6767151e050bdd
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin masterpage.Master" />
