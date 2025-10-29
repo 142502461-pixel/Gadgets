@@ -11,7 +11,7 @@ namespace Gadgets
 {
 
 
-    public partial class Index
+    public partial class index
     {
     }
 }
