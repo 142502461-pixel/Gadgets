@@ -13,16 +13,16 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
             <video class="d-block w-100" width="1920" height="400" controls>
-            <source src="Images/SlideShow/iPhone 15 Pro Reveal (4K).publer.com.mp4" type="video/mp4">
+            <source src="Images/Slideshow/iPhone 15 Pro Reveal (4K).publer.com.mp4" type="video/mp4">
             Your browser does not support the video tag.
                 </video>
                 </div>
                 </div>
                 <div class="carousel-item" width="1920" height="400">
-                    <img src="Images/SlideShow/Slideshow 2/Slide 2 version 2.jpg" class="d-block w-100" alt="..." />
+                    <img src="Images/Slideshow/Slide 2..png" class="d-block w-100" alt="..." />
                 </div>
                 <div class="carousel-item" width="1920" height="400">
-                    <img src="img/bg-3.jpg" class="d-block w-100" alt="..." />
+                    <img src="Images/Slideshow/Slide 3.png" class="d-block w-100" alt="..." />
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
