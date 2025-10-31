@@ -74,6 +74,7 @@
     </Content>
     <Content Include="Contact Us.aspx" />
     <Content Include="Delete.aspx" />
+    <Content Include="Delete1.aspx" />
     <Content Include="Gallery.aspx" />
     <Content Include="Images\Gadgets Store\Cameras\Canon EOS 8OOD.jpg" />
     <Content Include="Images\Gadgets Store\Cameras\Canon Pro AV Express.jpg" />
@@ -147,14 +148,18 @@
     <Content Include="Images\Gadgets Store\Watches\Samsung Sw.png" />
     <Content Include="Images\Gadgets Store\Watches\Samsung-Galaxy-Watch-7-BT-40mm-Green-300x300.png" />
     <Content Include="Images\Gadgets Store\Watches\Smart Tele World.png" />
-    <Content Include="Images\SlideShow\login picture.jpg" />
-    <Content Include="Images\SlideShow\Search button pic.jpg" />
-    <Content Include="Images\SlideShow\SlideShow 1.png" />
+    <Content Include="Images\logo\GadgetsLogoV1.png" />
+    <Content Include="Images\Slideshow\iPhone 15 Pro Reveal %284K%29.publer.com.mp4" />
+    <Content Include="Images\Slideshow\login picture.jpg" />
+    <Content Include="Images\Slideshow\Search button pic.jpg" />
+    <Content Include="Images\Slideshow\SlideShow 1.png" />
+    <Content Include="Images\Slideshow\Slide 2 %28buttons layout%29.png" />
+    <Content Include="Images\Slideshow\Slide 2..png" />
+    <Content Include="Images\Slideshow\Slide 3 %28button layout%29.png" />
+    <Content Include="Images\Slideshow\Slide 3.png" />
     <Content Include="Index.aspx" />
     <Content Include="item.aspx" />
     <Content Include="Login.aspx" />
-    <Content Include="Update.aspx" />
-    <Content Include="update2.aspx" />
     <Content Include="videos\stock vid1.mp4" />
     <Content Include="videos\stock vid2.mp4" />
     <Content Include="videos\stock vid3.mp4" />
@@ -188,6 +193,13 @@
     </Compile>
     <Compile Include="Delete.aspx.designer.cs">
       <DependentUpon>Delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Delete1.aspx.cs">
+      <DependentUpon>Delete1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Delete1.aspx.designer.cs">
+      <DependentUpon>Delete1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gallery.aspx.cs">
       <DependentUpon>Gallery.aspx</DependentUpon>
@@ -224,20 +236,6 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Update.aspx.cs">
-      <DependentUpon>Update.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Update.aspx.designer.cs">
-      <DependentUpon>Update.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="update2.aspx.cs">
-      <DependentUpon>update2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="update2.aspx.designer.cs">
-      <DependentUpon>update2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

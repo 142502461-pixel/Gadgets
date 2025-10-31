@@ -13,16 +13,5 @@ namespace Gadgets
         {
 
         }
-        protected void btnlogin_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("login.aspx");
-        }
-
-
-        protected void ImageButton1_Click1(System.Object sender, System.Web.UI.ImageClickEventArgs e)
-            {
-                Session["txtsearch"] = TxtSearch.Text;
-                Response.Redirect("GlobalSearch.aspx");
-            }
     }
 }
